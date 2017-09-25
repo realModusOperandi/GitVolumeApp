@@ -58,7 +58,9 @@ class ViewController: NSViewController  {
                 let lines = responseData?.components(separatedBy: .newlines)
                 for line: String in lines! {
                     if line.starts(with: keyString) {
-                        let volumeString = line.substring(from: (line.range(of: keyString)?.upperBound)!)
+                        //let volumeString = line.substring(from: (line.range(of: keyString)?.upperBound)!)
+                        let index = line.range(of: keyString)!.upperBound
+                        let volumeString = String(line[index...])
                         print("volume: \(volumeString)")
                         if let volume = Int(volumeString) {
                             print(volume)
@@ -81,7 +83,7 @@ class ViewController: NSViewController  {
         print("monitor() called")
         let account = accountField.stringValue
         let repo = repoField.stringValue
-        let branch = branchField.stringValue
+        //let branch = branchField.stringValue
         
         if account != "" && repo != "" {
             self.getVolume(account, repo)

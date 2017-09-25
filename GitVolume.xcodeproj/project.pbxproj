@@ -23,8 +23,8 @@
 		7B2DAE1B1EF8039200ABD729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B2DAE1C1EF8039200ABD729 /* GitVolume.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitVolume.entitlements; sourceTree = "<group>"; };
 		7B2DAE221EF8236E00ABD729 /* GitVolume-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitVolume-Bridging-Header.h"; sourceTree = "<group>"; };
-		7B2DAE231EF8236E00ABD729 /* ISSoundAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSoundAdditions.m; path = "../../../../Downloads/ISSoundAdditions-master/ISSoundAdditions.m"; sourceTree = "<group>"; };
-		7B2DAE241EF8236F00ABD729 /* ISSoundAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSoundAdditions.h; path = "../../../../Downloads/ISSoundAdditions-master/ISSoundAdditions.h"; sourceTree = "<group>"; };
+		7B2DAE231EF8236E00ABD729 /* ISSoundAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSoundAdditions.m; sourceTree = "<group>"; };
+		7B2DAE241EF8236F00ABD729 /* ISSoundAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSoundAdditions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +313,7 @@
 				7B2DAE211EF8039200ABD729 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
